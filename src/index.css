@@ -28,3 +28,14 @@ code {
   top: -50px;
   left: -20px;
 }
+.top-card {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* classı top-card olan inputu sec */
+.top-card:has(input:checked) {
+  box-shadow: 0 0 15px white;
+  border: 1px solid white;
+}
